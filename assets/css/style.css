@@ -1,0 +1,45 @@
+/*Estilos da página index.html*/
+
+.center{
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {   /*aqui funcionou pq declarei como class ao invés de ID, e troquei a # por . */
+    display: inline;
+    padding: 20px;
+}
+
+.menu li a { 
+
+    text-decoration: none;
+    color:darkgoldenrod;
+    font-size: 20px;
+}
+
+.menu li a:hover { 
+    color:rgb(37, 66, 194);
+}
+
+.p30{
+    padding: 40px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh{
+    width: 420px;
+    height: 400px;
+}
+
+
+/* Estilos da página contato.html*/
