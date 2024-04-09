@@ -66,7 +66,7 @@ function enviar(){
     if (nomeOk == true && emailOk == true && assuntoOk == true) {
         alert ('Formulário enviado com sucesso!')
     } else {
-        alert ('Preencha o formulário corretamente antes de enviar ...')
+        alert ('Preencha o formulário corretamente antes de enviá-lo ...')
     }
 }
 
@@ -74,10 +74,10 @@ function mapaZoom() {
     mapa.style.width = "800px";
     mapa.style.height = "600px";
   }
-  
+
   function mapaNormal() {
     mapa.style.width = "400px";
     mapa.style.height = "250px";
   }
+ 
 
-  
